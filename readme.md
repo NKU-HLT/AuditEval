@@ -50,30 +50,30 @@ AuditScore is a human-annotated dataset comprising **6,360 pairs of original and
 
 ---
 
-## 使用 AuditScore Mos-Predictor 进行自动评测
+## Using AuditScore MOS-Predictor for Automatic Evaluation
 
-本节介绍如何使用 AuditScore 提供的 MOS-predictor 工具对音频编辑结果进行自动评分：
+This section describes how to use the AuditScore MOS-predictor tool to automatically evaluate audio editing results:
 
-1. **配置输入**  
-   在 `pred.py` 中指定：
-   - 原始音频路径 `ori_path`
-   - 编辑后的目标音频路径 `tar_path`
-   - 原始文本 `ori_text`
-   - 编辑指令文本 `tar_text`
+1. **Configure Inputs**  
+   In `pred.py`, specify:
+   - Original audio path `ori_path`
+   - Edited target audio path `tar_path`
+   - Original transcript `ori_text`
+   - Editing instruction text `tar_text`
 
-2. **运行评测**  
-   执行以下命令即可获取对应音频的三个评分（Quality、Relevance、Faithfulness）：
+2. **Run Evaluation**  
+   Execute the following command to obtain the three scores (Quality, Relevance, Faithfulness) for the audio:
    ```bash
    bash pred.sh
    ```
 
-3. **训练模型**  
-   如果需要训练或微调 MOS-predictor 模型，可以使用：
+3. **Train the Model**  
+   If you need to train or fine-tune the MOS-predictor, use:
    ```bash
    bash train.sh
    ```
 
-以上步骤可快速完成音频编辑效果的自动化评估，减少人工打分成本。
+These steps allow quick automatic assessment of audio editing performance, reducing the need for costly human annotations.
 
 ---
 
