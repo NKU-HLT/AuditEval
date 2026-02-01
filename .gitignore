@@ -1,5 +1,6 @@
 # Ignore model checkpoints
-ckpt/laion_clap/630k-audioset-best.pt
-ckpt/faithfulness_epoch_35.pt
-ckpt/quality_epoch_50.pt
-ckpt/relevance_epoch_30.pt
+AuditEval-ssl/ckpt/laion_clap/630k-audioset-best.pt
+AuditEval-ssl/ckpt/faithfulness_epoch_35.pt
+AuditEval-ssl/ckpt/quality_epoch_50.pt
+AuditEval-ssl/ckpt/relevance_epoch_30.pt
+AuditEval-llm/ckpt/auditeval-llm/*
