@@ -4,3 +4,4 @@ AuditEval-ssl/ckpt/faithfulness_epoch_35.pt
 AuditEval-ssl/ckpt/quality_epoch_50.pt
 AuditEval-ssl/ckpt/relevance_epoch_30.pt
 AuditEval-llm/ckpt/auditeval-llm/*
+!AuditEval-llm/ckpt/auditeval-llm/.gitkeep
